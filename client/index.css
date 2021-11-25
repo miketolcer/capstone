@@ -1,0 +1,58 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.904) ;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Mochiy Pop P One', sans-serif;color: rgb(253, 4, 4);
+    
+}
+body {
+    background-image: url(https://mmaorlando.com/wp-content/uploads/2016/03/17701-displaying-12-images-for-mma-cage-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pillButton {
+    background: rgb(252, 252, 252);
+    font: 1em copperplate;
+    position: fixed;
+    top: 23%;
+    left: 53%;
+	margin-top: 0%;
+    margin-left: 35%;
+    max-width: 200px;
+    max-height: 200px;
+	border-radius: 5px;
+    border-color: black;
+    
+}
+#khabib {
+    position: fixed;
+    top: 1%;
+    left: 50%;
+	margin-top: 0%;
+    margin-left: 440px;
+    max-width: 200px;
+    max-height: 150px;
+	border-radius: 10px;
+}
+.twitter-share-button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    bottom: 100%;
+	margin-top: 7%;
+    margin-left: 1150px;
+    max-width: 200px;
+    max-height: 150px;
+	border-radius: 10px;
+
+  }
+  
