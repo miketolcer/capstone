@@ -1,0 +1,46 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://mmaorlando.com/wp-content/uploads/2016/03/17701-displaying-12-images-for-mma-cage-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.type h1 {
+    overflow: hidden;
+    border-right: .15em solid rgb(153, 30, 30);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30,end),
+    blink-caret .5s step-end infinite;
+    justify-content: center;
+    font-family: 'Mochiy Pop P One', sans-serif;color: rgb(253, 4, 4);
+}
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    background-color: rgba(241, 236, 236, 0.192);
+    max-width: 1000px;
+}
+
+.column img {
+    margin-top: 0px;
+    flex: 25%;
+    vertical-align:middle;
+    width: 35%;
+    padding: 0px;
+    margin-left: 30px;
+}
+#d {
+    color: brown;
+    font: 1em sans-serif;: ;
+}

@@ -12,7 +12,8 @@ h1 {
     left: 0;
     width: 100%;
     font-family: 'Mochiy Pop P One', sans-serif;color: rgb(253, 4, 4);
-    
+    animation-name: ufc;
+    animation-duration: 5s;
 }
 body {
     background-image: url(https://mmaorlando.com/wp-content/uploads/2016/03/17701-displaying-12-images-for-mma-cage-background.png);
@@ -48,11 +49,83 @@ body {
     top: 50%;
     left: 50%;
     bottom: 100%;
-	margin-top: 7%;
+	margin-top: 80px;
     margin-left: 1150px;
     max-width: 200px;
     max-height: 150px;
-	border-radius: 10px;
+}
 
-  }
-  
+#h2 {
+     position: relative;
+     font-family: 'Mochiy Pop P One', sans-serif;color: rgb(253, 4, 4);
+    
+}
+#subscribe {
+     margin-left: -50px;
+}
+
+#SubmitEmail {
+    margin-left: -11px;
+}
+
+#resetButton {
+    margin-left: -10px;
+}
+
+#p1 {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(253, 4, 4);
+    text-align:left 
+}
+#youtube {
+    display: block;
+    margin: 0 auto;
+    border-width: 6px;
+    border-style: groove;
+    border-color: crimson;
+}
+.slider-container {
+    overflow: hidden;
+    border: radius 90px; ;
+}
+#pTag {
+    color: rgb(182, 39, 39);
+    background: rgba(0, 0, 0, 0.74);
+    text-align:center;
+    font-size: 20px;
+    flex-wrap:initial
+}
+#style {
+   color: brown;
+
+}
+#fig {
+    max-width: 240px;
+    max-height: 300px;
+	border-radius: 10px;
+    float: left;
+}
+#nextFight {
+    margin-left: 100px;
+    height: 45px;
+    background-color: rgba(241, 25, 25, 0.89);
+    border-radius: 10px;
+}
+#style2 {
+    color: brown;
+}
+#s {
+    color: brown;
+    font: 1em sans-serif;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+@keyframes ufc {
+    0% {font-family: 'Mochiy Pop P One', sans-serif;color: rgb(253, 4, 4);}
+    20% {font-family:'Mochiy Pop P One', sans-serif;color: rgb(0, 0, 0) ;}
+    40% {font-family:'Mochiy Pop P One', sans-serif;color: rgb(231, 17, 17) ;}
+    60% {font-family:'Mochiy Pop P One', sans-serif;color: rgb(0, 0, 0); }
+    80% {font-family:'Mochiy Pop P One', sans-serif;color: rgb(250, 3, 3) ;}
+    100% {font-family:'Mochiy Pop P One', sans-serif;color: rgb(0, 0, 0);font-size: 50px ;}
+}
