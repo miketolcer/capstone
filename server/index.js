@@ -33,11 +33,31 @@ app.post("/api/subscribe", (req,res) => {
     console.log(req.body)
     res.sendStatus(200)
 })
+
 app.get("/api/nextFight", (req,res) => {
     const fights = ["December 18, 2021 Lewis vs. Daukaus-- at the UFC APEX in Las Vegas on ESPN+ at 7:00pm "];
     res.status(200).send(fights)
 })
 
+app.get("/api/roundOne", (req,res) => {
+    const oneRound = ["Figueiredo sends out a front kick, eats a leg kick. Good leg kick from Benavidez, avoids a spinning back kick. Benavidez throws another naked low kick and gets floored by a right hook. Figueiredo follows him down into guard."];
+    res.status(200).send(oneRound)
+})
+
+app.get("/api/rounds23", (req,res) => {
+    const twoRound = ["Figueiredo stalking forward, eats a pair of hooks in combination. Another low kick dings him, but he comes back with a straight right."];
+    res.status(200).send(twoRound)
+})
+
+app.get("/api/round4", (req,res) => {
+    const fourRound = ["Another huge right hook and another knockdown. Benavidez pops right back up. Lead right by the Brazilian. Benavidez catches a kick, tries to combo."];
+    res.status(200).send(fourRound)
+})
+
+app.get("/api/round5", (req,res) => {
+    const fiveRound = ["Figueiredo, who floors him with another right hand. Savage elbows from mount. Benavidez gives up the back and this choke’s ultra deep.-- Deiveson Figueiredo is your new UFC Flyweight Champion."];
+    res.status(200).send(fiveRound)
+})
 
 
 

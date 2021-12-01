@@ -44,3 +44,45 @@ body {
     color: brown;
     font: 1em sans-serif;: ;
 }
+#roundOne {
+    height: 40px;
+    position:absolute;
+    top: 38%;
+    left: 35%;
+	margin-top: 0%;
+    margin-left: 35%;
+    margin-bottom: 100%;
+}
+#rounds23 {
+    height: 40px;
+    position:absolute;
+    top: 23%;
+    left: 35%;
+	margin-top: 25%;
+    margin-left: 35%;
+    margin-bottom: 100%;
+}
+#round4 {
+    height: 40px;
+    position:absolute;
+    top: 23%;
+    left: 35%;
+	margin-top: 50%;
+    margin-left: 35%;
+    margin-bottom: 100%;
+}
+#round5 {
+    height: 40px;
+    position:absolute;
+    top: 23%;
+    left: 35%;
+	margin-top: 70%;
+    margin-left: 35%;
+    margin-bottom: 100%;
+} 
+h2 {
+    color: rgb(238, 27, 27);
+    position: relative;
+    margin-left: 65%;
+    top: 31px;
+}
