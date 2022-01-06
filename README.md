@@ -18,6 +18,6 @@
 
 👤 **mike tolcer**
 
-* Github: [@miketolcer](https://github.com/miketolcer
+* Github: [@miketolcer](https://github.com/miketolcer)
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
