@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.use(express.json());
-
+//Khabib random quote button
 app.get("/api/pillButton", (req,res) => {
     const quotes = ["Khabib says: You have to punch hard for knockouts, and to beat me, you have to knock me out.",
     "Khabib says: I care about my legacy.",
@@ -17,15 +17,13 @@ app.get("/api/pillButton", (req,res) => {
     "I always tell kids to put education first. Because if you have muscles but no brains, then you’ll have problems.    -Khabib Nurmagomedov ",
     "Win or lose, I believe in giving my best. And that is what I always do.   -Khabib Nurmagomedov",
     "When you truly fight for money, and you truly fight for legacy, its two different mentalities. I am here for legacy.   -Khabib Nurmagomedov"
-
-    
     ];
      let randomIndex = Math.floor(Math.random() * quotes.length);
      let randomQuote = quotes[randomIndex];
 
      res.status(200).send(randomQuote);
 })
-
+// Email form 
 let emailArry = []
 app.post("/api/subscribe", (req,res) => {
     const {Email} = req.body
@@ -33,12 +31,12 @@ app.post("/api/subscribe", (req,res) => {
     console.log(req.body)
     res.sendStatus(200)
 })
-
+//Red next fight button
 app.get("/api/nextFight", (req,res) => {
     const fights = ["December 18, 2021 Lewis vs. Daukaus-- at the UFC APEX in Las Vegas on ESPN+ at 7:00pm "];
     res.status(200).send(fights)
 })
-
+//Play-by-play buttons
 app.get("/api/roundOne", (req,res) => {
     const oneRound = ["Figueiredo sends out a front kick, eats a leg kick. Good leg kick from Benavidez, avoids a spinning back kick. Benavidez throws another naked low kick and gets floored by a right hook. Figueiredo follows him down into guard."];
     res.status(200).send(oneRound)
