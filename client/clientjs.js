@@ -18,7 +18,7 @@ document.getElementById('subscribe').addEventListener("submit", (e) => {
     axios.post("http://localhost:4500/api/subscribe", formBody)
     .then((response) => {
         const emailArry = response.data
-        console.log(emailArry)
+        console.log(response)
         alert('Your subscribed')
     })
 })

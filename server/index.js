@@ -28,8 +28,8 @@ let emailArry = []
 app.post("/api/subscribe", (req,res) => {
     const {Email} = req.body
     emailArry.push(req.body)
-    console.log(req.body)
-    res.sendStatus(200)
+    console.log(req.body.Email)
+    res.status(200).send(emailArry)
 })
 //Red next fight button
 app.get("/api/nextFight", (req,res) => {
